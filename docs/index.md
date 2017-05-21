@@ -1,22 +1,13 @@
-## What is Python?
+## Welcome to Python 3 
 
-> Python is a widely used general-purpose, high-level programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.
+Python 3 is a new version of the language that is **incompatible** with the 2.x line of releases. The language is mostly the same, but many details, especially how built-in objects like dictionaries and strings work, have changed considerably, and a lot of deprecated features have finally been removed. Also, the standard library has been reorganized in a few prominent places.
 
-**Python is Interpreted**
+This site is intended to host a variety of resources and pointers to information about Python 3. In these pages you will find
 
-Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
-
-**Python is Interactive**
-
-You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.
-
-**Python is Object-Oriented**
-
-Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
-
-**Python is Beginner Friendly**
-
-Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
+* a [reading list](#books)
+* collection of [best courses](#courses) about python 3
+* links to [python videos](#videos)
+* as well as [tutorials](/tutorial) and [cool demos]()
 
 ## Books
 
@@ -33,10 +24,9 @@ Python is a great language for the beginner-level programmers and supports the d
 <div class="videos" gid="1WMjweKiok6GnxZr9sIPx32RqgdYIQXSaI9gqs3A9TWI"></div>
 <div class="clearfix"></div>
 
-## Challenges
 
-* [www.pythonchallenge.com](http://www.pythonchallenge.com/)
+## Suggested Readings 
 
-## External Links
+<br/>
 
 * [Top 10 Python Libraries Of 2015](http://blog.tryolabs.com/2015/12/15/top-10-python-libraries-of-2015/)

@@ -1,3 +1,15 @@
+## Import module
+
+```python
+from monnod import nom1, nom2 as fct
+# -> direct access to names, renaming with as
+
+import monnode
+# -> access via monmod.nom1
+```
+
+**Note:** modules and packages searched in *python path* (cf sys.path)
+
 ## Create Public Module
 
 `conda`, `pypi`, `github`

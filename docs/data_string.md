@@ -1,8 +1,25 @@
 ## Format
 
+**Format expression**
+
+```
+fill_char alignment sign mini_width.precision~maxwidth type
+```
+
+**Examples**
+
 ```python
 '{0}, {1}, {2}'.format('a', 'b', 'c')
 # 'a, b, c'
+
+"{:+2.3f}".format(45.72793)
+# +45.728
+
+"{1:>10s}".format(8, "toto")
+# '      toto'
+
+"{x!r}".format(x="I'm")
+# I'm
 ```
 
 ## Regular Expressions
@@ -13,7 +30,7 @@ Regular Expressions are used in programming languages to filter texts or textstr
 
 There is an aspect of regular expressions which shouldn't go unmentioned: The syntax of regular expressions is the same for all programming and script languages, e.g. Python, Perl, Java, SED, AWK and even X#.
 
-### Functions
+### Regex Functions
 
 #### match function
 
@@ -109,7 +126,7 @@ Phone Num :  2004-959-559
 Phone Num :  2004959559
 ```
 
-### Tokens Cheatsheet
+### Regex Tokens
 
 <table class="highlight-table">
 <tr>
@@ -158,7 +175,7 @@ Phone Num :  2004959559
 <tr>
 <td>[^abc]</td> <td>not a, b or c</td>
 <td class="example">
-<f> /analy<h>[</h>sz<h>]</h>e/ </f>
+<f> /analy<h>[</h>^sz<h>]</h>e/ </f>
 <t>analyse analyze <h>analyxe</h> </t>
 </td>
 </tr>
@@ -166,7 +183,7 @@ Phone Num :  2004959559
 <tr>
 <td>[a-g]</td> <td>character between a & g</td>
 <td class="example">
-<f> /<h>[</h>2<h>-</h>4<h>]</h>/ </f>
+<f> /demo<h>[</h>2<h>-</h>4<h>]</h>/ </f>
 <t> demo1 <h>demo2</h> <h>demo3</h> <h>demo4</h> demo5</t>
 </td>
 </tr>

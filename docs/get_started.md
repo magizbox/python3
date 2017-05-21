@@ -19,17 +19,13 @@ Welcome! This tutorial details how to get started with Python.
 <h4>Python 3.6 version</h4>
 <a class="btn btn-success" href="https://repo.continuum.io/archive/Anaconda3-4.3.0.1-Windows-x86_64.exe" target="_blank">64-BIT INSTALLER</a>
 <br/>
-<hr style="border-top: 1px solid rgba(51, 51, 51, 0.24);">
-<h4>Python 2.7 version</h4>
-<a class="btn btn-success" href="https://repo.continuum.io/archive/Anaconda2-4.3.0.1-Windows-x86_64.exe" target="_blank">64-BIT INSTALLER</a>
-<br/>
 </div>
 </div>
 
 
-**Step 2.** Discover the Map
+**4.** Discover the Map
 
-[https://docs.python.org/2/library/index.html](https://docs.python.org/2/library/index.html)
+[https://docs.python.org/3/](https://docs.python.org/3/)
 
 
 ## For CentOS

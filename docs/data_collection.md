@@ -77,6 +77,12 @@ random.choice(x) # 52
 random.sample(x, 3) # [23, 14, 52]
 ```
 
+## Tuple
+
+```python
+a = (1, 5, 9)
+```
+
 ## Dictionary
 
 Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. An empty dictionary without any items is written with just two curly braces, like this: {}.
@@ -90,6 +96,8 @@ dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 
 print "dict['Name']: ", dict['Name']
 print "dict['Age']: ", dict['Age']
+
+dict(a=3, b=4, k="v")
 ```
 
 **Update dictionary**
@@ -116,6 +124,12 @@ del dict ;        # delete entire dictionary
 
 print "dict['Age']: ", dict['Age']
 print "dict['School']: ", dict['School']
+```
+
+## Set
+
+```python
+x = {"a", "b", "c"}
 ```
 
 ## Related Readings

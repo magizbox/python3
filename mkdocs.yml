@@ -1,13 +1,14 @@
-site_name: Python
+site_name: Python 3
 site_author: "Vu Anh"
 google_analytics: ['UA-68978617-1', 'magizbox.com']
-repo_url: https://github.com/magizbox/python/
+repo_url: https://github.com/magizbox/python3/
 edit_uri: edit/master/docs/
 
 pages:
 - "<span class='fa fa-home'></span> Home": "index.md"
 - "<span class='fa fa-cloud-download'></span> Get Started": 'get_started.md'
-- "<span class='fa fa-book'></span> Learn":
+- "<span class='fa fa-book'></span> Tutorials":
+  - "Introduction": 'tutorial.md'
   - "Basic Syntax":
     - "Overview": 'basic_syntax.md'
     - "Yield and Generator": 'basic_syntax_yield.md'
@@ -32,7 +33,6 @@ pages:
   - "Environment": 'environment.md'
   - "Module": 'make_a_module.md'
   - "Production": 'production.md'
-- "<span class='fa fa-question-circle'></span> Ask": "ask.md"
 
 markdown_extensions:
     - footnotes
